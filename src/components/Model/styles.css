@@ -18,8 +18,13 @@
   object-fit: cover;
 }
 
-.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after ,.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
   background:var(--color-text-primary) ;
   color: var(--color-bg-primary);
-  padding: .5rem 1rem;
+  padding: .5rem;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+  background:var(--color-text-primary) ;
+  color: var(--color-bg-primary);
+  padding: .5rem ;
 }
