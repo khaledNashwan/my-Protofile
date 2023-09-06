@@ -1,0 +1,21 @@
+
+
+@media screen and (max-width: 768px){
+    .navbar{
+        width: 100%;
+        bottom: 0;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+}
+    .button__top{
+        right: 1rem;
+        bottom: 5rem;
+    }
+ 
+}
+
+@media screen and (max-width: 992px){
+}

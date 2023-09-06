@@ -24,3 +24,9 @@
     color:var(--color-bg-primary);
     margin-top: .5rem;
 }
+
+@media screen and (max-width: 992px) {
+.card__pro{
+    width: 350px;
+}
+}
